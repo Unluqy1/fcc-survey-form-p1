@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <h1 id="title"><u>Survey Form</u></h1>
+    <hr>
+    <p id="description">Thank you for helping us improve the platform.</p>
+    <form id="survey-form">
+      <fieldset>
+      <div class="div1"><label id= "name-label" for="name">Enter your name: <input type="text" id="name" placeholder ="Dan"required></input></label><br>
+
+      <label id="email-label" for="email">Enter your email:<input type="email" placeholder="Spongebob@gmail.com" required id="email"></input></label><br>
+
+<label id="number-label"for="number">How old are you? (years)<input type="number" id= "number" min="13" max="120" placeholder="15"></input> </label><br>
+</div>
+</fieldset>
+<fieldset>
+  <div class="div2">
+<label>Which type of programmer are you?<select id="dropdown">
+  <option>Front-end</option>
+  <option>Back-end</option>
+</select></fieldset></div>
+</label><br>
+<fieldset>
+  <div class="div3"
+<label>Are you Male or Female?<br><input type="radio" name="gender"value ="Male">Male</input><br><input type="radio" name="gender" value="Female">Female</input><br> </label></fieldset></div>
+<fieldset>
+  <div class="div4">
+<label for="employment">What is your employment status?<br>
+  <input type="checkbox" value="Unemployed" name="employment" id="employment">Unemployed</input><br>
+  <input type="checkbox" value="Employed" name="employment" id="employment">Employed</input><br>
+  <input type="checkbox" value="Looking-for-work" name="employment" id="looking-for-work">Looking for work</input><br>
+  <label for="feedback">Do you have any feedback?<br><textarea id="feedback" placeholder="I love this website because.."></textarea></label>
+</label><br></fieldset></div>
+<fieldset>
+<input type="Submit" id="submit">
+</fieldset>
+    </form>
+  </body>
+
+</html>

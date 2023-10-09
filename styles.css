@@ -1,0 +1,82 @@
+h1,p,form{
+    text-align: center;
+    font-family: "Roboto";
+  }
+  p{
+    color: #382a30;
+  }
+  h1{
+    font-size: 30px;
+    color: #382a30;
+  }
+  body{
+    background-color: #734954
+  }
+  hr{
+    border: 2px solid #402d31
+  }
+  input{
+    color: white;
+   border: none; background-color: #cfaebc;
+  }
+  select{
+    border: none;
+    color: #4d3b43;
+    background-color: #cfaebc;
+  }
+  input[type="checkbox"]{
+    background-color: #402d31;
+  } 
+  fieldset{
+    margin: auto;
+    margin-top: 1em;
+    border: none;
+  }
+  .div1,.div2,.div3,.div4,.div5{
+    min-width: 0%;
+    max-width: 40%;
+    margin: auto;
+    border: 3px solid;
+    border-radius: 20px;
+    color: #382a30;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  input[type="text"]{
+    margin: 0;
+    margin-top: 2px;
+  }
+  textarea{
+    outline: none;
+    background-color: #cfb8c2;
+    border: none;
+    min-height: 50;
+  }
+  input[type="Submit"]{
+    color: #2b2326;
+  }
+  .div5{
+    padding-top: 10px;
+  }
+  input[type="Submit"]{
+    height: 30px;
+    width: 100px;
+    color: #382a30;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: #734954;
+  }
+  .div3{
+    margin-top: -25px;
+  }
+  .div4{
+    margin-top: -5px;
+  }
+  input[type="Submit"]{
+    margin-top: -15px;
+  }
+  .div2{
+    margin-top: -5px;
+  }
+  
+  
